@@ -1,0 +1,6 @@
+applicationType: grpc
+defaultPackage: com.example
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, aws-v2-sdk, gradle, grpc, junit, kafka, kotlin, kotlin-application, logback, properties, readme, shade]

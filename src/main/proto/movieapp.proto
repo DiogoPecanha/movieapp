@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example";
+option java_outer_classname = "Movieapp";
+option objc_class_prefix = "HLW";
+
+package com.example;
+
+service MovieappService {
+  rpc send (MovieappRequest) returns (MovieappReply) {}
+}
+
+message MovieappRequest {
+  string name = 1;
+}
+
+message MovieappReply {
+  string message = 1;
+}
